@@ -69,9 +69,9 @@ const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'G6N3Eb_2zYt8XvD1B2CbeigwONsX8C9ozakPIfE1b-4',
       // 所在省份
-      province: '北京',
+      province: '',
       // 所在城市
-      city: '北京',
+      city: '',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '06-15',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -82,7 +82,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '04-30',
+          type: '*生日', name: '老婆', year: '1996', date: '06-15',
         },
         {
           type: '节日', name: '结婚纪念日', year: '2022', date: '08-08',
@@ -196,9 +196,9 @@ const USER_CONFIG = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '广东',
+  PROVINCE: '北京',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '惠州',
+  CITY: '北京',
 
   /** 重要节日相关 */
 
